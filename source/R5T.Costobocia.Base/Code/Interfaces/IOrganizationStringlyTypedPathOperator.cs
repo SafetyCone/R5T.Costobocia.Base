@@ -7,6 +7,7 @@ namespace R5T.Costobocia
 {
     public interface IOrganizationStringlyTypedPathOperator
     {
-        string GetOrganizationDirectoryPath(string organizationsDirectoryPath, IOrganization organization);
+        string GetOrganizationDirectoryPathFromBaseDirectoryPath(string baseDirectoryPath, IOrganization organization);
+        string GetOrganizationDirectoryPathFromOrganizationsDirectoryPath(string organizationsDirectoryPath, IOrganization organization);
     }
 }
