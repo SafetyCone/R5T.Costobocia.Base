@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace R5T.Costobocia.Base
+namespace R5T.Costobocia
 {
     public interface IOrganizationDirectoryPathProvider
     {
