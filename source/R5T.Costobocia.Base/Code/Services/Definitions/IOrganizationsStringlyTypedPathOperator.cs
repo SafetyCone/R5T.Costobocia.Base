@@ -1,9 +1,12 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Costobocia
 {
-    public interface IOrganizationsStringlyTypedPathOperator
+    [ServiceDefinitionMarker]
+    public interface IOrganizationsStringlyTypedPathOperator : IServiceDefinition
     {
         string GetOrganizationsDirectoryPath(string baseDirectoryPath);
     }
